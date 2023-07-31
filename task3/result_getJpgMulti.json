@@ -1,0 +1,7 @@
+{
+  "running": true,
+  "nr_running": 1,
+  "process_info": [
+    "6821 /usr/bin/python3 /home/mbi1955/projects/picamera2/getImgJpgMulti.py /home/mbi1955/projects/picamera2/cfg_getImgJpgMulti.json"
+  ]
+}

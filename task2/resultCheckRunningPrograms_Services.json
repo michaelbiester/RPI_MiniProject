@@ -1,0 +1,32 @@
+{
+  "programs": {
+    "erl.exe": [
+      {
+        "name": "erl.exe",
+        "status": "running",
+        "pid": 5468,
+        "username": null
+      }
+    ],
+    "erlsrv.exe": [
+      {
+        "name": "erlsrv.exe",
+        "status": "running",
+        "pid": 12260,
+        "username": null
+      }
+    ]
+  },
+  "services": {
+    "RabbitMQ": {
+      "display_name": "RabbitMQ",
+      "binpath": "\"C:\\Program Files\\Erlang OTP\\erts-13.2.2\\bin\\erlsrv.exe\"",
+      "username": "LocalSystem",
+      "start_type": "automatic",
+      "status": "running",
+      "pid": 12260,
+      "name": "RabbitMQ",
+      "description": "Multi-protocol open source messaging broker"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+    "width": 1920,
+    "height": 1080,
+    "wait_after_start": 2.0,
+    "__comment1": "exposure time as integer in microseconds; null indicates automatic exposure time setting",
+    "exposure_time": null,
+    "analogue_gain": 8.0,
+    "__comment2": "jpg_file (full path for capturing a single image",
+    "jpg_file": "/home/mbi1955/projects/picamera2/gallery/img_jpg_single.jpg",
+    "__comment3": "full path to directory; for capturing multiple images",
+    "img_dir": "/home/mbi1955/projects/picamera2/gallery",
+    "base_file_name": "img_jpg_.jpg",
+    "nr_of_files_in_gallery": 10,
+    "nr_of_files": 1000,
+    "min_delay_between_img_capture": 1.0,
+    "check_interval_s": 1.0
+}

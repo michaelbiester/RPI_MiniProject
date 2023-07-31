@@ -1,0 +1,9 @@
+{
+    "sleep_s": 1.0,
+    "text_out": "running task ",
+    "poison_pill": {
+        "dir": "/home/mbi1955/projects/linux_experiments/programs",
+        "file": "stop_file.txt",
+        "token": "abort"
+    }
+}

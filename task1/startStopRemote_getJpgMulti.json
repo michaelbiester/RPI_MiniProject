@@ -1,0 +1,10 @@
+{
+  "pyIntRemote": "/usr/bin/python3",
+  "pyProgramRemote": "/home/mbi1955/projects/picamera2/getImgJpgMulti.py",
+  "args": ["/home/mbi1955/projects/picamera2/cfg_getImgJpgMulti.json"],
+  "config_rpi": "/home/mbi1955/projects/picamera2/cfg_getImgJpgMulti.json",
+  "redirect_rpi_c": "~/projects/picamera2/out_stdout_stderr.txt",
+  "redirect_rpi": "/dev/null",
+  "config_pc": "C:/Users/micha/projects/raspi4/projects_rpi/monitoring_p1/task3/cfg_getImgJpgMulti.json",
+  "copy_config_to_rpi": true
+}

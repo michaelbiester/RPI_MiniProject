@@ -1,0 +1,4 @@
+{
+    "programs": ["erl.exe", "erlsrv.exe" ],
+    "services": ["RabbitMQ"]
+}

@@ -1,0 +1,59 @@
+{
+    "logging": {
+        "use_logging": false,
+        "log_dir": "log",
+        "log_file_base": "log_monitor_pc_ws_client_.log",
+        "clear_old_logs": true
+    },
+
+    "mqtt_broker": {
+        "use_mqtt": true,
+        "service_name": "RabbitMQ",
+        "hostname": "127.0.0.1",
+        "port": 15675,
+        "username": null,
+        "password" : null,
+        "clean_session": null
+    },
+
+    "database": {
+        "use_db": false,
+        "host": "127.0.0.1",
+        "dbname": "analysis",
+        "port": 5432,
+        "user": "postgres",
+        "password" : "***"
+    },
+    
+    "monitor_rpi": {
+        "camera_app": {
+            "program_start_stop": "C:/Users/micha/projects/raspi4/projects_rpi/monitoring_p1/task1/startStopRemoteProgram.py",
+            "args": [
+                "C:/Users/micha/projects/raspi4/projects_rpi/monitoring_p1/task3/ssh_credentials.json",
+                "C:/Users/micha/projects/raspi4/projects_rpi/monitoring_p1/task1/startStopRemote_getJpgMulti.json",
+                "y",
+                "y",
+                "C:/Users/micha/projects/raspi4/projects_rpi/monitoring_p1/task3/result_getJpgMulti.json"
+            ]
+        },
+        "ws_server_app": {
+            "program_start_stop": "C:/Users/micha/projects/raspi4/projects_rpi/monitoring_p1/task1/startStopRemoteProgram.py",
+            "args": [
+                "C:/Users/micha/projects/raspi4/projects_rpi/monitoring_p1/task3/ssh_credentials.json",
+                "C:/Users/micha/projects/raspi4/projects_rpi/monitoring_p1/task3/startStopRemote_rpi_ws_server.json",
+                "y",
+                "y",
+                "C:/Users/micha/projects/raspi4/projects_rpi/monitoring_p1/task3/result_rpi_ws_server.json"
+            ]
+        }
+
+    },
+
+    "monitor_pc": {
+        "uri": "ws://192.168.0.50:8001/some_path",
+        "__comment1": "full path to directory; for storing multiple images",
+        "img_dir": "C:/Users/micha/projects/nodejs/server_experiments/NodeJS/public/images/gallery",
+        "base_file_name": "img_jpg_gallery_.jpg",
+        "nr_of_files_in_gallery": 10
+    }
+}

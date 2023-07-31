@@ -1,0 +1,10 @@
+{
+  "pyIntRemote": "/usr/bin/python3",
+  "pyProgramRemote": "/home/mbi1955/projects/linux_experiments/programs/pyTestBackground.py",
+  "args": ["/home/mbi1955/projects/linux_experiments/programs/pyTestBackground.json"],
+  "config_rpi": "/home/mbi1955/projects/linux_experiments/programs/pyTestBackground.json",
+  "redirect_rpi_c": "~/projects/linux_experiments/programs/out_stdout_stderr.txt",
+  "redirect_rpi": "/dev/null",
+  "config_pc": "C:/Users/micha/projects/raspi4/projects_rpi/monitoring_p1/task1/pyTestBackground.json",
+  "copy_config_to_rpi": true
+}

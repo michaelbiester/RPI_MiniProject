@@ -1,0 +1,8 @@
+# gitignore for Raspberry Pi "Mini Project"
+
+/.vscode
+
+/rabbitmq_test
+/task4
+*.jpg
+

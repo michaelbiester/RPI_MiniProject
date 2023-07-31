@@ -1,0 +1,23 @@
+{
+    "camera": {
+        "img_dir": "/home/mbi1955/projects/picamera2/gallery",
+        "check_interval_s": 10.0
+    },
+    "random_data": {
+        "data_range": [0.0, 100.0],
+        "time_between_data": 2.5
+    },
+    "pir_sensor": {
+        "data_range": [true, false],
+        "t_next_event_min": 1.0,
+        "t_next_event_max": 6.0
+    },
+    "temp_sensor": {
+        "data_range": [-20.0, 60.0],
+        "time_between_data": 4.0
+    },
+    "light_sensor": {
+        "data_range": [0, 100.0],
+        "time_between_data": 4.5
+    }
+}
