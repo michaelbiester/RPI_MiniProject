@@ -35,3 +35,9 @@ program (eg. `RabbitMQ` , `PostgreSQL`) is running .
 See `readme_checkRunningPrograms_Services.md` on how to use this program.
 
 ## dir: task3
+
+program: `monitor_pc_ws_client.py` receives notifications from program `monitor_rpi_ws_server.py` which must be already running on
+the Raspberry PI (RPI). Notfifications on sensor data and captured images are published to the RabbitMQ/MQTT message broker.
+New images captured via program `getImgJpgMulti.py` on the RPI are transferred via websocket to the PC and stored in some directory (configurable).
+
+See `readme_monitor_pc_ws_client.md` on how to use this program.
