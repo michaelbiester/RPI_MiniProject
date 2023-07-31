@@ -25,9 +25,13 @@ For the RPI Mini-project this program is used to:
 1) start image capturing on the RPI with program `getImgJpgMulti.py`
 2) start monitoring program on the RPI with program `monitor_rpi_ws_server.py`
 
-See `task1\readme_startStopRemoteProgram.md` for more details how to use `startStopRemoteProgram.py`.   
-
+See `readme_startStopRemoteProgram.md` for more details how to use `startStopRemoteProgram.py`.   
 
 ## dir: task2
+
+program `checkRunningPrograms_Services.py` is a utility program. It is configured via a configuration file to check whether a 
+program (eg. `RabbitMQ` , `PostgreSQL`) is running .
+
+See `readme_checkRunningPrograms_Services.md` on how to use this program.
 
 ## dir: task3
